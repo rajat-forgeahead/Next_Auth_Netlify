@@ -35,7 +35,7 @@ import connect from "@/utils/db";
   
     // ...add more providers here
   ],
-  secret: process.env.SECRET
+  secret: process.env.MY_SECRET
 
 };
  const handler = NextAuth(authOptions);
